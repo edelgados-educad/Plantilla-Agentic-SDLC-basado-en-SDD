@@ -13,6 +13,27 @@ Resuelve un problema concreto: cuando el conocimiento vive en conversaciones con
 - Owner: [OWNER]
 - Created: [DATE]
 
+## Quick Start
+
+Ambas vías desembocan en el [lifecycle canónico](#lifecycle); después, cada tarea usa su skill ([How To](#how-to)). Lo que hace el agente en cada paso está detallado en la skill enlazada.
+
+### New Project
+
+1. En GitHub: **Use this template → Create a new repository** (privado si tendrá datos institucionales o personales).
+2. Clonar el repositorio y abrirlo en el editor.
+3. Pedir al agente: *"Lee `AGENTS.md` y ejecuta `skills/bootstrap-project/SKILL.md`"* ([bootstrap-project](skills/bootstrap-project/SKILL.md)).
+4. Responder sus preguntas: nombre, descripción, owner, Project Profile y si habrá datos personales.
+5. Revisar los cambios, hacer commit y push.
+6. Continuar con Discovery: completar `docs/01-discovery/problem.md`.
+
+### Existing Project
+
+1. Abrir en el editor el repositorio que ya tiene código.
+2. Pedir al agente: *"Ejecuta `skills/adopt-existing-project/SKILL.md` con la plantilla `https://github.com/edelgados-educad/Plantilla-Agentic-SDLC-basado-en-SDD`. El cambio a realizar es: …"* ([adopt-existing-project](skills/adopt-existing-project/SKILL.md)).
+3. Revisar y aprobar el plan de adopción que propone el agente: no reemplaza ni elimina archivos existentes.
+4. Confirmar el Project Profile propuesto.
+5. Revisar el `current-state.md` del área afectada, las preguntas abiertas y el primer work item; luego commit y push.
+
 ## Template Versioning
 
 La versión de la plantilla vive únicamente en [`VERSION`](VERSION); su historial, en [CHANGELOG.md](CHANGELOG.md). Semantic Versioning: **MAJOR** = cambios incompatibles en metodología o estructura; **MINOR** = nuevas capacidades compatibles; **PATCH** = correcciones sin alterar el flujo.
@@ -125,18 +146,6 @@ Dentro del documento correspondiente puede usarse la forma corta; en referencias
 | `agents/`, `skills/` | Siete roles y nueve procedimientos reutilizables |
 | `evals/`, `tests/` | Evaluaciones y pruebas |
 | `src/`, `infra/`, `scripts/` | Código, infraestructura y automatizaciones del proyecto derivado |
-
-## Adoption
-
-Vías de adopción de la plantilla, no ciclos alternativos: ambas desembocan en el [lifecycle canónico](#lifecycle).
-
-### New Project
-
-Crear el repositorio desde la plantilla y ejecutar [bootstrap-project](skills/bootstrap-project/SKILL.md): pide nombre, descripción, owner y Project Profile, y deja el proyecto listo para Discovery.
-
-### Existing Project
-
-Ejecutar [adopt-existing-project](skills/adopt-existing-project/SKILL.md) dentro del repositorio: incorpora la metodología sin sobrescribir archivos, documenta solo el área que se va a modificar y crea el primer work item.
 
 ## How To
 

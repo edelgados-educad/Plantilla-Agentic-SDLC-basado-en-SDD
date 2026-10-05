@@ -8,6 +8,15 @@ Este changelog pertenece **solo a la plantilla**. Los proyectos derivados no her
 
 Sin cambios pendientes.
 
+## 1.1.1 - 2026-10-04
+
+Versión PATCH: solo documentación; el flujo de la metodología no cambia.
+
+### Changed
+
+- README: la sección `Adoption` se reemplaza por `Quick Start`, ubicada al inicio, con pasos concretos para proyectos nuevos y existentes.
+- `bootstrap-project`: la conversión del README elimina `Quick Start` en lugar de `Adoption`.
+
 ## 1.1.0 - 2026-10-04
 
 Versión MINOR: agrega dos skills y un concepto sin cambiar la metodología ni la estructura de carpetas.

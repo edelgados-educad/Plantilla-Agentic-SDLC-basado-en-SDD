@@ -41,7 +41,7 @@ Si la respuesta 3 es "Sí" y el perfil elegido es `LITE` (o `STANDARD`), aplicar
 |---|---|
 | Título e introducción | Reemplazar por `[PROJECT_NAME]`, `[PROJECT_DESCRIPTION]` y una línea que indique que el proyecto usa el Agentic SDLC basado en SDD, con enlace a `AGENTS.md`. |
 | `## Template Versioning` | Reducir a: versión de origen en `Project`; el proyecto no contiene `VERSION` ni `CHANGELOG.md` de la plantilla; cambios de harness o Constitution mediante ADR o changelog propio. Conservar el encabezado: otros documentos lo enlazan. |
-| `## Adoption` | Eliminar: describe cómo adoptar la plantilla. |
+| `## Quick Start` | Eliminar: describe cómo usar la plantilla, no el proyecto. |
 | `## Repository Structure` | Eliminar la fila de `VERSION` y `CHANGELOG.md`. |
 | Resto (`Project`, `Philosophy`, `Lifecycle`, `IDs and Traceability`, `How To`, `Placeholders`, etc.) | Conservar: son operativas y sus anchors están enlazados desde otros documentos. |
 
