@@ -17,6 +17,7 @@ Traducir intención aprobada en una especificación verificable que sirva de fue
 - Work item clasificado (`[WORK_ID]`) en [05-plans/index.md](../../docs/05-plans/index.md).
 - [product-spec.md](../../docs/02-product/product-spec.md), [business-rules.md](../../docs/02-product/business-rules.md) y [non-functional-requirements.md](../../docs/02-product/non-functional-requirements.md).
 - Journeys, glosario y respuestas humanas registradas.
+- Referencias relevantes de [docs/references/](../../docs/references/README.md) (p. ej., mockups), citadas por su `REF-XXX` en FR, AC o `References`.
 
 # Process
 

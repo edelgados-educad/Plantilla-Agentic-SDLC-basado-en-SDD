@@ -141,6 +141,7 @@ Los términos se mantienen en inglés, tal como aparecen en la plantilla; las de
 | Non-functional Requirement (NFR) | Requisito de calidad (performance, seguridad, disponibilidad, etc.) con métrica, umbral y método de verificación. |
 | Open Question | Duda registrada en la spec (`Q-001`); las críticas deben responderse antes de aprobarla. |
 | Precondition | Condición que debe cumplirse antes del flujo principal. |
+| [Reference (REF)](docs/references/README.md) | Material fuente indexado (`REF-001`): referencia visual, regla de despliegue, normativa o documento del negocio; sus reglas se resumen en texto donde se usan. |
 | Scope | Alcance del proyecto: In Scope, Out of Scope y Future Scope. |
 | Stakeholder | Persona o rol con interés o influencia en el proyecto. |
 | Traceability | Cadena verificable que une cada requisito con su criterio de aceptación, su tarea y su test o eval. |

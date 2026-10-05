@@ -8,6 +8,18 @@ Este changelog pertenece **solo a la plantilla**. Los proyectos derivados no her
 
 Sin cambios pendientes.
 
+## 1.3.0 - 2026-10-04
+
+Versión MINOR: agrega una carpeta para material fuente sin cambiar la metodología.
+
+### Added
+
+- `docs/references/`: índice de material fuente (referencias visuales, reglas de despliegue de otros sistemas, normativa) con ID `REF-001`; las reglas se resumen en texto en el documento que las usa.
+
+### Changed
+
+- README (IDs y estructura), AGENTS.md (mapa), GLOSSARY.md y `create-spec`: incluyen las referencias.
+
 ## 1.2.0 - 2026-10-04
 
 Versión MINOR: agrega un documento de referencia sin cambiar la metodología.

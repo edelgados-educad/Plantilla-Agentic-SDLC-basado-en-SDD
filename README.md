@@ -122,6 +122,7 @@ Condiciones de cada gate: [quality-gates.md](docs/00-governance/quality-gates.md
 | ADR | `ADR-001` | Global |
 | Incident | `INC-001` | Global |
 | Open Question | `Q-001` | Spec |
+| Reference | `REF-001` | Global |
 
 Dentro del documento correspondiente puede usarse la forma corta; en referencias entre documentos, siempre la forma completa. Cadena obligatoria: `Requirement → Acceptance Criterion → Task → Test / Eval`.
 
@@ -143,6 +144,7 @@ Dentro del documento correspondiente puede usarse la forma corta; en referencias
 | `docs/05-plans/` | Registro de trabajos y planes (`active/`, `completed/`) |
 | `docs/06-quality/`, `docs/07-operations/` | Sensores, pruebas, reglas y checks; despliegue, observabilidad, SLO, runbook, rollback |
 | `docs/08-learning/` | Feedback Flywheel, incidentes, retrospectivas, lecciones, tech debt |
+| `docs/references/` | Material fuente indexado (`REF-XXX`): referencias visuales, reglas de despliegue, normativa |
 | `agents/`, `skills/` | Siete roles y nueve procedimientos reutilizables |
 | `evals/`, `tests/` | Evaluaciones y pruebas |
 | `src/`, `infra/`, `scripts/` | Código, infraestructura y automatizaciones del proyecto derivado |
