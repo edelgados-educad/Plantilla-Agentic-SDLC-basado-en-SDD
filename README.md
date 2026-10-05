@@ -134,7 +134,7 @@ Dentro del documento correspondiente puede usarse la forma corta; en referencias
 
 | Path | Purpose |
 |---|---|
-| `AGENTS.md`, `ARCHITECTURE.md` | Mapas de entrada para agentes y arquitectura |
+| `AGENTS.md`, `ARCHITECTURE.md`, `GLOSSARY.md` | Mapas de entrada para agentes y arquitectura; glosario de términos técnicos y de la metodología |
 | `VERSION`, `CHANGELOG.md` | Versión e historial de la plantilla |
 | `docs/00-governance/` | Constitution, principios, work types, Definition of Done, quality gates |
 | `docs/01-discovery/`, `docs/02-product/` | Problema, alcance, estado actual; producto, journeys, reglas, NFR |

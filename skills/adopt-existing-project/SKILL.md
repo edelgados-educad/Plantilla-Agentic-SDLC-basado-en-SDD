@@ -21,7 +21,7 @@ Aplicar la metodología donde se va a trabajar sin detener el proyecto para docu
 
 # Process
 
-1. **Inventario previo, sin escribir nada.** Listar los elementos del destino que colisionan con la estructura de la plantilla: `README.md`, `AGENTS.md`, `ARCHITECTURE.md`, `docs/`, `agents/`, `skills/`, `evals/`, `tests/`, `scripts/`, `src/`, `infra/`. Conservar el inventario para la validación.
+1. **Inventario previo, sin escribir nada.** Listar los elementos del destino que colisionan con la estructura de la plantilla: `README.md`, `AGENTS.md`, `ARCHITECTURE.md`, `GLOSSARY.md`, `docs/`, `agents/`, `skills/`, `evals/`, `tests/`, `scripts/`, `src/`, `infra/`. Conservar el inventario para la validación.
 2. **Plan de adopción.** Proponer, por cada elemento, la acción y la ruta final según la tabla `Adoption Rules`, junto con el Project Profile sugerido. Pedir aprobación humana; sin aprobación no se escribe nada.
 3. **Harness Root.** Si la metodología no queda en las rutas por defecto (Harness Root distinto de `docs/`, README de la metodología fuera de la raíz, o `agents/`, `skills/`, `evals/` reubicados):
    - registrar `Harness Root: [HARNESS_ROOT]` al inicio de `AGENTS.md` (p. ej., `Harness Root: docs/harness`);
@@ -42,6 +42,7 @@ Aplicar la metodología donde se va a trabajar sin detener el proyecto para docu
 | `README.md` existe | No reemplazar. Agregar al final `## Engineering Harness` con Project Profile, `Template Version` y enlace a `AGENTS.md`. El README de la metodología se ubica en `[HARNESS_ROOT]/README.md`. |
 | `AGENTS.md` existe | Fusionar: conservar el contenido existente y agregar el mapa de la metodología. Mostrar la propuesta antes de escribir. |
 | `ARCHITECTURE.md` existe | No reemplazar. Agregar un enlace a la documentación de arquitectura de la metodología. |
+| `GLOSSARY.md` existe | No reemplazar. Ubicar el glosario de la metodología en `[HARNESS_ROOT]/GLOSSARY.md` y enlazarlo desde `AGENTS.md`. |
 | `docs/` existe con contenido | Ubicar la metodología en `docs/harness/` (Harness Root). |
 | `agents/`, `skills/` o `evals/` existen con otro uso | Proponer una ubicación alternativa bajo el Harness Root y pedir confirmación. |
 | `tests/`, `src/`, `infra/`, `scripts/` | No crear carpetas nuevas. Respetar la estructura existente y registrar las ubicaciones reales en `feedback-sensors.md` y `test-strategy.md`. |

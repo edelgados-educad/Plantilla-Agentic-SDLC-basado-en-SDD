@@ -8,6 +8,19 @@ Este changelog pertenece **solo a la plantilla**. Los proyectos derivados no her
 
 Sin cambios pendientes.
 
+## 1.2.0 - 2026-10-04
+
+Versión MINOR: agrega un documento de referencia sin cambiar la metodología.
+
+### Added
+
+- `GLOSSARY.md`: glosario de términos técnicos y de la metodología, organizado en 10 secciones, con enlace a la ubicación canónica de cada concepto.
+
+### Changed
+
+- `docs/01-discovery/glossary.md`: queda solo para términos del proyecto; delega los de la metodología a `GLOSSARY.md` y deja de repetir sus acrónimos.
+- README, AGENTS.md y `adopt-existing-project`: incluyen `GLOSSARY.md` en la estructura, el mapa y las reglas de adopción.
+
 ## 1.1.1 - 2026-10-04
 
 Versión PATCH: solo documentación; el flujo de la metodología no cambia.

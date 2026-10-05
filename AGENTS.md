@@ -22,6 +22,7 @@ Construir [PROJECT_NAME] con el Agentic SDLC basado en SDD: especificar antes de
 - **Agents:** [orchestrator](agents/orchestrator.md) · [analyst](agents/analyst.md) · [architect](agents/architect.md) · [implementer](agents/implementer.md) · [tester](agents/tester.md) · [reviewer](agents/reviewer.md) · [security](agents/security.md)
 - **Skills:** [bootstrap-project](skills/bootstrap-project/SKILL.md) · [adopt-existing-project](skills/adopt-existing-project/SKILL.md) · [assess-codebase](skills/assess-codebase/SKILL.md) · [create-spec](skills/create-spec/SKILL.md) · [clarify-spec](skills/clarify-spec/SKILL.md) · [create-plan](skills/create-plan/SKILL.md) · [implement-feature](skills/implement-feature/SKILL.md) · [review-feature](skills/review-feature/SKILL.md) · [debug-issue](skills/debug-issue/SKILL.md)
 - **Evals:** [evals/README.md](evals/README.md) — evaluaciones con datasets y umbrales.
+- **Glossary:** [GLOSSARY.md](GLOSSARY.md) — definición breve de cada término técnico y de la metodología.
 
 # Lifecycle
 
