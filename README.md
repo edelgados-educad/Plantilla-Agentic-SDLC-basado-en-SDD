@@ -60,7 +60,7 @@ IDEA → CLASSIFY → ASSESS → CONSTITUTION → DISCOVERY → PRODUCT SPEC
 → RELEASE → OBSERVABILITY → LEARNING → HARNESS IMPROVEMENT
 ```
 
-No todo trabajo recorre todas las etapas: aplican según el Work Type y la Lifecycle Applicability.
+No todo trabajo recorre todas las etapas: aplican según el Work Type y la Lifecycle Applicability. Vista gráfica del proceso completo: [PROCESS-FLOW.md](PROCESS-FLOW.md).
 
 ### Lifecycle Mapping
 
@@ -135,7 +135,7 @@ Dentro del documento correspondiente puede usarse la forma corta; en referencias
 
 | Path | Purpose |
 |---|---|
-| `AGENTS.md`, `ARCHITECTURE.md`, `GLOSSARY.md` | Mapas de entrada para agentes y arquitectura; glosario de términos técnicos y de la metodología |
+| `AGENTS.md`, `ARCHITECTURE.md`, `GLOSSARY.md`, `PROCESS-FLOW.md` | Mapas de entrada para agentes y arquitectura; glosario de términos; diagramas del proceso |
 | `VERSION`, `CHANGELOG.md` | Versión e historial de la plantilla |
 | `docs/00-governance/` | Constitution, principios, work types, Definition of Done, quality gates |
 | `docs/01-discovery/`, `docs/02-product/` | Problema, alcance, estado actual; producto, journeys, reglas, NFR |

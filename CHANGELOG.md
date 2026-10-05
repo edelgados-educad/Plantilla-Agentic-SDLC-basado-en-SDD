@@ -8,6 +8,18 @@ Este changelog pertenece **solo a la plantilla**. Los proyectos derivados no her
 
 Sin cambios pendientes.
 
+## 1.4.0 - 2026-10-04
+
+Versión MINOR: agrega un documento visual sin cambiar la metodología.
+
+### Added
+
+- `PROCESS-FLOW.md`: diagramas del proceso (vista general, lifecycle con gates y roles, ruta por Work Type, applicability, Emergency Path, estados de tareas y specs, Feedback Flywheel) y tabla de roles, como refuerzo visual para compartir la plantilla.
+
+### Changed
+
+- README: enlaza `PROCESS-FLOW.md` desde `Lifecycle` y `Repository Structure`.
+
 ## 1.3.0 - 2026-10-04
 
 Versión MINOR: agrega una carpeta para material fuente sin cambiar la metodología.
